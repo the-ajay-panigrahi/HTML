@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://cdn.iconscout.com/icon/free/png-256/free-html-5-1-1175208.png?f=webp"
+      type="image/x-icon"
+    />
+    <title>Formatting</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Rubik", sans-serif;
+        background-color: rgb(65, 64, 64);
+        color: white;
+        width: 100vw;
+        height: 100vh;
+        padding: 10px;
+        text-align: center;
+      }
+      b,
+      strong,
+      i,
+      em,
+      sub,
+      sup,
+      del,
+      mark,
+      small,
+      big {
+        color: yellow;
+      }
+      div {
+        border: 2px solid rgb(255, 255, 255);
+        width: 30vw;
+        padding: 10px;
+        border-radius: 33px;
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- html comment -->
+    <h1>Formatting</h1>
+    <div>
+      <p>This is <b>bold</b>.</p>
+      <p>This is <strong>strong</strong>.</p>
+      <p>This is <i>italisized</i>.</p>
+      <p>This is <em>emphasized</em>.</p>
+      <p>This is <sub>subscripted</sub>.</p>
+      <p>This is <sup>superscripted</sup>.</p>
+      <p>This is <small>small</small>.</p>
+      <!-- below written big tag is deprecated -->
+      <p>This is <big>big</big>.</p>
+      <p>This is <del>deleted</del>.</p>
+      <p>This is <mark style="color: red">marked</mark>.</p>
+      <h2
+        style="
+          background-color: steelblue;
+          border-radius: 100px;
+          padding: 5px;
+          margin-top: 10px;
+          text-transform: capitalize;
+        "
+      >
+        this tag needs some styling
+      </h2>
+    </div>
+  </body>
+</html>
