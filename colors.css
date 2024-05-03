@@ -1,0 +1,14 @@
+/* External Css */
+p:first-child {
+  background-color: #ffa500;
+  padding: 8px;
+  border-radius: 10px;
+}
+p:last-child {
+  background-color: rgb(78, 78, 221);
+  padding: 8px;
+  border-radius: 10px;
+}
+p {
+  margin: 10px 5px;
+}
