@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://cdn.iconscout.com/icon/free/png-256/free-html-5-1-1175208.png?f=webp"
+      type="image/x-icon"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Rubik", sans-serif;
+        background-color: rgb(65, 64, 64);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        width: 100vw;
+        height: 100vh;
+        padding: 10px;
+        text-align: center;
+      }
+      div {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+      }
+      img {
+        border-radius: 17px;
+        filter: grayscale(100%);
+        transition: all 0.3s ease;
+      }
+      img:hover {
+        cursor: progress;
+        transition: all 0.3s ease;
+        filter: grayscale(0%);
+        width: 400px;
+      }
+    </style>
+    <title>Images</title>
+  </head>
+  <body>
+    <h1>Hover on the images</h1>
+    <div>
+      <img
+        src="https://images.pexels.com/photos/18681384/pexels-photo-18681384/free-photo-of-gaming.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Hitesh choudhary"
+        width="350px"
+      />
+      <img src="./assets/hitesh.jpg" alt="Hitesh choudhary" width="350px" />
+
+      <!-- picture tag -->
+      <picture>
+        <source
+          media="(min-width:1000px)"
+          srcset="
+            https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
+          "
+          alt="Hitesh choudhary"
+        />
+
+        <source
+          media="(min-width:700px)"
+          srcset="
+            https://images.pexels.com/photos/7775637/pexels-photo-7775637.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
+          "
+          alt="Hitesh choudhary"
+        />
+        <source
+          media="(min-width:500px)"
+          srcset="
+            https://images.pexels.com/photos/7775638/pexels-photo-7775638.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
+          "
+          alt="Hitesh choudhary"
+        />
+
+        <img src="./assets/hitesh.jpg" alt="Hitesh choudhary" width="350px" />
+      </picture>
+    </div>
+  </body>
+</html>
