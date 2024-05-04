@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iframe</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://cdn.iconscout.com/icon/free/png-256/free-html-5-1-1175208.png?f=webp"
+      type="image/x-icon"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        font-family: "Rubik", sans-serif;
+        background-color: #ffa500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 2px solid black;
+      }
+      th {
+        padding: 30px;
+      }
+      caption {
+        font-size: 50px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Iframe
+      </caption>
+      <tr>
+        <th>HTML</th>
+        <td>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/videoseries?si=JHXvqjClsE5nExVa&amp;list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </td>
+        <th>JavaScript</th>
+        <td>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/videoseries?si=svWu0INyhHVs0Ppy&amp;list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </td>
+      </tr>
+      <tr>
+        <th>React Js</th>
+        <td>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/videoseries?si=QOUVnl7EN92wSi6K&amp;list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </td>
+        <th>Backend</th>
+        <td>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/videoseries?si=q0bzgjwR6ByywHpm&amp;list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
