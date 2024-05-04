@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lists</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://cdn.iconscout.com/icon/free/png-256/free-html-5-1-1175208.png?f=webp"
+      type="image/x-icon"
+    />
+    <style>
+      /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      } */
+      body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        font-family: "Rubik", sans-serif;
+        background-color: rgb(65, 64, 64);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      div {
+        border: 2px solid #fff;
+        border-radius: 33px;
+        margin: 10px;
+        padding: 10px 20px;
+        /* text-align: center; */
+      }
+      h1 {
+        color: white;
+      }
+      h2 {
+        color: orange;
+      }
+      li,
+      dt,
+      dd {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lists in Html</h1>
+    <div>
+      <h2>Unordered Lists</h2>
+      <ul style="list-style: square">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Juice</li>
+      </ul>
+
+      <h2>Ordered Lists</h2>
+      <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Juice</li>
+      </ol>
+
+      <h2>Description Lists</h2>
+      <dl>
+        <dt>Tea</dt>
+        <dd>Emotion</dd>
+        <dt>Coffee</dt>
+        <dd>Almost every developer's favorite molecule</dd>
+      </dl>
+    </div>
+  </body>
+</html>
